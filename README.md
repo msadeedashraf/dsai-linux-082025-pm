@@ -1,1 +1,5 @@
-Hello from VS
+## Install WSL
+
+```
+wsl --install
+```
