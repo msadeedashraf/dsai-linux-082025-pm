@@ -3,3 +3,8 @@
 ```
 wsl --install
 ```
+
+### Instal
+
+[Rust Desk](https://github.com/rustdesk/rustdesk/releases/download/1.4.1/rustdesk-1.4.1-x86_64.exe)
+
