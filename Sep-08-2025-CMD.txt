@@ -1,0 +1,165 @@
+sadeed@sadeed:/mnt/c/Users/sadeedashraf$ cd ~
+sadeed@sadeed:~$
+sadeed@sadeed:~$
+sadeed@sadeed:~$ pwd
+/home/sadeed
+sadeed@sadeed:~$ cd /mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab/
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mkdir dir4
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ cp result dir4/roses
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ diff result dir4/rose
+s
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ diff result dir4/roses
+0a1
+> sadeed
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls dir4/
+roses
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l dir4/
+total 4
+-rwxrwxrwx 1 sadeed sadeed 1263 Sep  8 18:59 roses
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l
+total 32
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 19:00 dir3
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 18:57 dir4
+-rwxrwxrwx 1 sadeed sadeed  1236 Sep  5 19:58 lorem.txt
+-rwxrwxrwx 1 sadeed sadeed  1236 Sep  5 19:58 lorem1.txt
+-rwxrwxrwx 1 sadeed sadeed    19 Sep  5 20:01 lorem2.txt
+-rwxrwxrwx 1 sadeed sadeed  1247 Sep  5 20:18 lorem3.txt
+-rwxrwxrwx 1 sadeed sadeed  1255 Sep  5 20:05 result
+-rwxrwxrwx 1 sadeed sadeed 11297 Sep  5 20:10 result.txt
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mkdir dir3/vegetables
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l dir3/
+total 0
+drwxrwxrwx 1 sadeed sadeed 4096 Sep  8 19:02 vegetables
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mkdir dir2
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l
+total 32
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 19:03 dir2
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 19:02 dir3
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 18:57 dir4
+-rwxrwxrwx 1 sadeed sadeed  1236 Sep  5 19:58 lorem.txt
+-rwxrwxrwx 1 sadeed sadeed  1236 Sep  5 19:58 lorem1.txt
+-rwxrwxrwx 1 sadeed sadeed    19 Sep  5 20:01 lorem2.txt
+-rwxrwxrwx 1 sadeed sadeed  1247 Sep  5 20:18 lorem3.txt
+-rwxrwxrwx 1 sadeed sadeed  1255 Sep  5 20:05 result
+-rwxrwxrwx 1 sadeed sadeed 11297 Sep  5 20:10 result.txt
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l dir3/
+total 0
+drwxrwxrwx 1 sadeed sadeed 4096 Sep  8 19:02 vegetables
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mv dir1/coffees/beans/beans dir2/
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls dir2
+beans
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls dir2
+beans  notes
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ cat dir2/notes
+This is my notes file sitting inside the dir2sadeed@sadeed:/mnt/d/ssadesadsadeed@sasadeed@ssasasasasadsasadssasssadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mkdir practice1
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l
+total 32
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 19:05 dir1
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 19:07 dir2
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 19:02 dir3
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 18:57 dir4
+-rwxrwxrwx 1 sadeed sadeed  1236 Sep  5 19:58 lorem.txt
+-rwxrwxrwx 1 sadeed sadeed  1236 Sep  5 19:58 lorem1.txt
+-rwxrwxrwx 1 sadeed sadeed    19 Sep  5 20:01 lorem2.txt
+-rwxrwxrwx 1 sadeed sadeed  1247 Sep  5 20:18 lorem3.txt
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 20:04 practice1
+-rwxrwxrwx 1 sadeed sadeed  1255 Sep  5 20:05 result
+-rwxrwxrwx 1 sadeed sadeed 11297 Sep  5 20:10 result.txt
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ cp file.1 file.2 practice1/
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls practice1/
+file.1  file.2
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mkdir practice1/play
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls practice1/
+file.1  file.2  play
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mv practice1/
+file.1  file.2  play/
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mv practice1/file.1 practice1/play/
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls practice1/ practice1/play/
+practice1/:
+file.2  play
+
+practice1/play/:
+file.1
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mv practice1/play/file.1 practice1/
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls practice1/ practice1/play/
+practice1/:
+file.1  file.2  play
+
+practice1/play/:
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l practice1/play/
+total 0
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ cp practice1/file.1 practice1/play/addresses
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l practice1/play/
+total 4
+-rwxrwxrwx 1 sadeed sadeed 1255 Sep  8 20:20 addresses
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ cp -r practice1/play/ practice1/appointments
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls practice1/appointments/
+addresses
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l practice1/
+total 8
+drwxrwxrwx 1 sadeed sadeed 4096 Sep  8 20:21 appointments
+-rwxrwxrwx 1 sadeed sadeed 1255 Sep  8 20:06 file.1
+-rwxrwxrwx 1 sadeed sadeed 1255 Sep  8 20:06 file.2
+drwxrwxrwx 1 sadeed sadeed 4096 Sep  8 20:20 play
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -l practice1/
+total 8
+drwxrwxrwx 1 sadeed sadeed 4096 Sep  8 20:21 appointments
+-rwxrwxrwx 1 sadeed sadeed 1255 Sep  8 20:06 file.1
+-rwxrwxrwx 1 sadeed sadeed 1255 Sep  8 20:06 file.2
+drwxrwxrwx 1 sadeed sadeed 4096 Sep  8 20:20 play
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ ls -R practice1/
+practice1/:
+appointments  file.1  file.2  play
+
+practice1/appointments:
+addresses
+
+practice1/play:
+addresses
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ cd; mkdir -p house/furniture
+sadeed@sadeed:~$ ls
+house
+sadeed@sadeed:~$ ls -R house/
+house/:
+furniture
+
+house/furniture:
+sadeed@sadeed:~$ cd; mkdir house1/furniture
+mkdir: cannot create directory ‘house1/furniture’: No such file or directory
+sadeed@sadeed:~$ touch house/furniture/chairs
+sadeed@sadeed:~$ ls
+house
+sadeed@sadeed:~$ ls -R
+.:
+house
+
+./house:
+furniture
+
+./house/furniture:
+chairs
+sadeed@sadeed:~$ cd /mnt/d/CBC/DSAI/Linux/
+D76989GC20-UNIX and Linux Essentials/ dsai-linux-082025-pm/
+sadeed@sadeed:~$ cd /mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/
+.git/ lab/
+sadeed@sadeed:~$ cd /mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab/
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ mkdir -p house/furniture
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ pwd
+/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ touch house/furniture/chairs
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab$ cd house/furniture/
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab/house/furniture$ vi chairs
+
+[No write since last change]
+/bin/bash: line 1: wq: command not found
+
+shell returned 127
+
+Press ENTER or type command to continue
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab/house/furniture$ cat chairs
+This is a new file i created in the furniture folder to hold the chairs.
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab/house/furniture$ mv chairs mychair
+sadeed@sadeed:/mnt/d/CBC/DSAI/Linux/dsai-linux-082025-pm/lab/house/furniture$
