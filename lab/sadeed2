@@ -1,0 +1,23 @@
+total 48
+-rwxrwxrwx 1 sadeed sadeed  6303 Sep 11 20:36 all-commands
+-rwxrwxrwx 1 sadeed sadeed   167 Sep 12 19:15 dir-list
+drwxrwxrwx 1 sadeed sadeed  4096 Sep 11 18:12 dir1
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 19:07 dir2
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 20:07 dir3
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 18:57 dir4
+-rwxrwxrwx 1 sadeed sadeed   402 Sep 11 18:56 example
+-rwxrwxrwx 1 sadeed sadeed  1255 Sep  5 20:05 file.1
+-rwxrwxrwx 1 sadeed sadeed  1255 Sep  5 20:05 file.2
+-rwxrwxrwx 1 sadeed sadeed    24 Sep 10 20:30 fruits
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 20:30 house
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  9 19:32 lorem
+-rwxrwxrwx 1 sadeed sadeed  1236 Sep  5 19:58 lorem.txt
+-rwxrwxrwx 1 sadeed sadeed  1236 Sep  5 19:58 lorem1.txt
+-rwxrwxrwx 1 sadeed sadeed    19 Sep  5 20:01 lorem2.txt
+-rwxrwxrwx 1 sadeed sadeed  1247 Sep  5 20:18 lorem3.txt
+-rwxrwxrwx 1 sadeed sadeed    59 Sep 10 20:26 my-test-file
+drwxrwxrwx 1 sadeed sadeed  4096 Sep  8 20:21 practice1
+-rwxrwxrwx 1 sadeed sadeed  1255 Sep  5 20:05 result
+-rwxrwxrwx 1 sadeed sadeed 11297 Sep  5 20:10 result.txt
+-rwxrwxrwx 1 sadeed sadeed   175 Sep 12 19:17 sabreen
+-rwxrwxrwx 1 sadeed sadeed     0 Sep 12 19:18 sadeed2
